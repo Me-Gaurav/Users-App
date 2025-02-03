@@ -63,7 +63,7 @@ const Users = () => {
                 <thead>
                     <tr>
                         {
-                            tableHeadings.map((heading, i) => <th key={i} className="py-3 text-nowrap">{heading}</th>)
+                            tableHeadings.map((heading, index) => <th key={index} className="py-3 text-nowrap">{heading}</th>)
                         }
                     </tr>
                 </thead>
