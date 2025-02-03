@@ -1,0 +1,1 @@
+export const tableHeadings = ["Id", "Name", "Email", "Phone", "City", "Zip Code", ""] 

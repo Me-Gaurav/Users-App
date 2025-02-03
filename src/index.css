@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.btn-outline-light:hover {
+  background: transparent;
+  scale: 1.01;
+  color: white;
+  opacity: 0.6;
+  transition: 0.2s ease;
+}
+
+input::placeholder {
+  font-size: 14.5px;  
+  color: rgb(160, 160, 160) !important;
+}
